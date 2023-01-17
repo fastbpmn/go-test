@@ -5,8 +5,13 @@
 
 package main
 
-import "github.com/fastbpmn/go-test/routine/countdown"
+import (
+	"github.com/fastbpmn/go-study/date-time/dt"
+	"github.com/fastbpmn/go-test/routine/countdown"
+)
 
 func main() {
 	countdown.CountDown()
+	dt.Day()
+	dt.PrintDT()
 }
